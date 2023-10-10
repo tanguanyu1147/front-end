@@ -1,0 +1,142 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; 
+}
+
+.user-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.user-type button {
+  margin: 0px 0;
+  padding: 72px;
+  background-color: #006eff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 195px;
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.user-type button:hover {
+  background-color: #00ccff;
+}
+
+.login-container {
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  color: rgb(0, 102, 255);
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+}
+
+.subtitle {
+  font-weight: 400;
+  color: gray;
+  font-size: 18px;
+  margin-top: 5px; 
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.login-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#forgotPassword {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #006eff;
+    font-size: 14px;
+}
+
+#loginButton {
+    width: 80px;
+    padding: 5px 10px;
+    background-color: #006eff;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#loginButton:hover {
+    background-color: #00ccff;
+}
+
+@media screen and (max-width: 768px) {
+   
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.user-type-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.user-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.user-button {
+        padding: 10px;
+        width: 100px;
+    }
+
+.login-container {
+  width: 300px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+}
+}
